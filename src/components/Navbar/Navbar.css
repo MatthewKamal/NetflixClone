@@ -66,6 +66,28 @@
   cursor: pointer;
 }
 
+.navbar-right input {
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  width: 160px;
+  transition: all 0.3s ease;
+}
+
+.navbar-right input::placeholder {
+  color: #b3b3b3;
+}
+
+.navbar-right input:focus {
+  border-color: red;
+  background: rgba(0, 0, 0, 0.9);
+  width: 200px;
+}
+
 .navbar-right .profile {
   width: 35px;
   border-radius: 4px;
@@ -212,6 +234,9 @@
   .navbar-left img {
     height: 25px;
     width: auto;
+  }
+  .navbar-right input {
+    display: none;
   }
 }
 
