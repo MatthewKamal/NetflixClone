@@ -72,12 +72,13 @@
   .player iframe {
     width: 95%;
     height: 300px;
-    margin-top: 5%;
+    margin-top: 6%;
   }
 
   .player-info {
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   .player-info-box {
@@ -93,7 +94,7 @@
   .player iframe {
     width: 100%;
     height: 220px;
-    margin-top: 5%;
+    margin-top: 6%;
   }
 
   .player img {
